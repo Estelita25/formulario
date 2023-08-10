@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css/ex021.css">
+    <link rel="shortcut icon" href="logo verde.ico" type="image/x-icon">
+    <title>FORMULÁRIO</title>
+</head>
+<body>
+    <header>
+    <img src="corrida.png" alt=" corrida">
+    <form action="formulario php" autocomplete="off">
+   <h1> PROJETO RECIFE CORRE </h1> 
+   <h2>FICHA DE INSCRIÇÃO</h2>
+   <hr>
+   <br>
+    </header>
+
+<fieldset class="grupo">
+    <strong>DADOS PESSOAIS</strong> 
+    <br>
+    <label for="nome"><strong>Nome</strong></label>
+    <input type="text" name="nome" id="nome" required>
+    <br>
+
+    <label for="Sobrenome"><strong> Sobrenome</strong></label>
+    <input type="text"  name="Sobrenome"  id="Sobrenome" > 
+    <br>
+    
+<label><strong>Gênero</strong></label>
+        <br>
+    <label>
+    <input type="radio" nome="masculino" value="masculino"checked > masculino
+    </label>
+
+    <label>
+    <input type="radio" nome="feminino" value="feminino"> feminino 
+    </label>
+
+    <label>
+    <input type="radio" nome="outros" value="outros"> outros
+    </label>
+
+</fieldset>
+    <br>
+    <br>
+
+<fieldset class="grupo">
+    <strong>ENDEREÇO </strong>
+    <br>
+
+
+    <label for="logradouro"><strong>Logradouro</strong></label>
+    <input type="text" id="logradouro" required>
+    <br>
+
+    <label for="número"><strong>Número</strong></label>
+    <input type="number" id="número">
+<br>
+
+    <label for="Bairro"><strong>Bairro</strong></label>
+    <input type="text" id="Bairro">
+    <br>
+
+    <label for="Cidade"><strong>Cidade</strong></label>
+    <input type="text" id="Cidade">
+<br>
+</fieldset>
+
+<br>
+<fieldset class="grupo">
+    <h3>SOBRE VOCÊ:</h3> 
+    <label><strong>ESCOLARIDADE</strong></label>
+    <input type="radio" id="option">
+    <select id="Escolaridade" required>
+        <option>Nível Fundamental</option>
+        <option> Nível Médio</option>
+        <option>Nível Superior</option>
+    </select>
+    <br> 
+    <div class="campo">
+        <br>
+        <label><strong>DOENÇAS PRÉ EXISTENTES.</strong> </label> <br> <br>
+            <input type="checkbox" id="doença0" nome="doença0" value="Hipertenção">
+            <label for="Hipertenção">Hipertenção</label>
+            <input type="checkbox" id="doença1" nome="doença1" value="Arritimia Caardíaca">
+            <label for="arritmia Caardíaca"> Arritimia Cardíaca</label>
+            <input type="checkbox" id="doença2" nome="doença2" value="Reumatismo">
+            <label for="Reumatismo">Reumatismo</label>
+            <input type="checkbox" id="doença3" nome="doença3" value="COVID">
+            <label for="COVID">COVID</label>
+            <input type="checkbox" id=" nenhuma" nome="nenhuma" value="nenhuma">
+            <label for="nenhuma">nenhuma</label>
+    </div>
+</fieldset>
+
+<div class="campo">
+    <br>
+    <label><strong>FALE UM POUCO SOBRE VOCÊ</strong></label>
+    <textarea rows="3" style="width: 900px" id="sobre VOCÊ" nome="sobre VOCÊ"></textarea>
+</div>
+<br>
+<input type="submit" value="Concluido" >
+<br>
+
+<footer> <i> Estelita data 06/03/2023</i></footer>
+
+
+
+</body>
+</html>
